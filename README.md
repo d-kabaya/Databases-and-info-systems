@@ -1,6 +1,6 @@
 # Databases and Information Systems
 
-Plain-language lessons for the Databases and Information Systems module, built from the lecture notes (L01 to L13), the relational algebra exercise solutions and the MySQL lab solutions. Every lesson explains the ideas simply, works through examples step by step, and ends with a quiz.
+Plain-language lessons for the Databases and Information Systems module, built from the lecture notes (L01 to L15), the relational algebra exercise solutions and the MySQL lab solutions. Every lesson explains the ideas simply, works through examples step by step, and ends with a quiz.
 
 ## How to use this
 
@@ -43,6 +43,8 @@ Plain-language lessons for the Databases and Information Systems module, built f
 | 11 | [The Entity-Relationship model](lessons/11-entity-relationship-model.md) | entities, relationships, cardinalities, identifiers, generalisations |
 | 12 | [Conceptual design](lessons/12-conceptual-design.md) | analysing requirements, choosing constructs, building an ER schema |
 | 13 | [Logical design: restructuring](lessons/13-logical-design-restructuring.md) | redundancies, removing generalisations, partitioning and merging, primary identifiers |
+| 14 | [Logical design: translation](lessons/14-logical-design-translation.md) | turning entities and relationships into tables: many-to-many, one-to-many, one-to-one |
+| 15 | [Design theory and normalisation](lessons/15-design-theory-and-normalisation.md) | anomalies, functional dependencies, 1NF, 2NF, 3NF |
 
 ## Practice databases
 
@@ -70,9 +72,8 @@ Relational algebra is written with these symbols: Π projection, σ selection, �
 
 ## What's covered and what isn't
 
-These lessons cover lectures L01 to L13. Two things are not included because the material wasn't available when they were written:
+These lessons cover lectures L01 to L15. One thing is not included because the material wasn't available when they were written:
 
-- **Logical design part 2** (translating a restructured ER schema into tables).
 - **Stored procedures**, which are taught in the MySQL practicals.
 
 Where a lecture slide contains a slip, the lesson says so and gives the corrected version.

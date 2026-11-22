@@ -1,6 +1,6 @@
 # Lesson 13: Logical Design Part 1, Restructuring ER Schemas
 
-[← Previous: Conceptual design](12-conceptual-design.md) · [Back to index](../README.md)
+[← Previous: Conceptual design](12-conceptual-design.md) · [Back to index](../README.md) · [Next: Logical design, translation →](14-logical-design-translation.md)
 
 ## The big idea
 
@@ -115,7 +115,7 @@ Three things are done:
 
 A student row has Type = "student", a StudentNumber, and a null Office.
 
-**Beyond the notes:** this lecture shows only the merge-into-the-parent method. The complete example at the end of the lecture removes the TRAINEE generalisation differently, by keeping the children as separate entities linked to the parent through (1,1) relationships. Translation into tables is covered in part 2 of logical design.
+**Beyond the notes:** this lecture shows only the merge-into-the-parent method. The complete example at the end of the lecture removes the TRAINEE generalisation differently, by keeping the children as separate entities linked to the parent through (1,1) relationships. Translation into tables is covered in [Lesson 14](14-logical-design-translation.md).
 
 ## 3. Partitioning and merging
 
